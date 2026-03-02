@@ -1,0 +1,70 @@
+/* Styles modernes pour WeChat */
+.root {
+    -fx-font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    -fx-background-color: #f0f2f5;
+}
+
+.button {
+    -fx-background-color: #00a884;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5;
+    -fx-padding: 8 15;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #008f6f;
+}
+
+.text-field {
+    -fx-background-radius: 5;
+    -fx-border-color: #ddd;
+    -fx-border-radius: 5;
+    -fx-padding: 8;
+}
+
+.label-titre {
+    -fx-font-size: 24px;
+    -fx-text-fill: #00a884;
+    -fx-font-weight: bold;
+}
+
+.chat-container {
+    -fx-background-color: white;
+    -fx-border-color: #ddd;
+}
+
+.message-bulle-gauche {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 10;
+    -fx-padding: 10;
+    -fx-border-color: #e9edef;
+    -fx-border-radius: 10;
+}
+
+.message-bulle-droite {
+    -fx-background-color: #dcf8c6;
+    -fx-background-radius: 10;
+    -fx-padding: 10;
+}
+
+.liste-utilisateurs {
+    -fx-background-color: white;
+}
+
+.utilisateur-item {
+    -fx-padding: 10;
+    -fx-border-color: #f0f2f5;
+    -fx-border-width: 0 0 1 0;
+}
+
+.statut-en-ligne {
+    -fx-text-fill: #25d366;
+    -fx-font-size: 10px;
+}
+
+.statut-hors-ligne {
+    -fx-text-fill: #8696a0;
+    -fx-font-size: 10px;
+}

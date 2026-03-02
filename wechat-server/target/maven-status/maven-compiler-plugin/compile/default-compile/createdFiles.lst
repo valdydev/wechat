@@ -1,0 +1,6 @@
+fr/wechat/serveur/GestionnaireClient.class
+fr/wechat/serveur/ServeurChat.class
+fr/wechat/serveur/HibernateUtil.class
+fr/wechat/serveur/UtilisateurDAO.class
+fr/wechat/serveur/ServiceSecurite.class
+fr/wechat/serveur/MessageDAO.class

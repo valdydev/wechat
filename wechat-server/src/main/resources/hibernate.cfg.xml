@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <!-- Paramètres de connexion JDBC -->
+        <property name="connection.driver_class">org.postgresql.Driver</property>
+        <property name="connection.url">jdbc:postgresql://localhost:5432/wechat_db</property>
+        <property name="connection.username">wechat_user</property>
+        <property name="connection.password">wechat_password</property>
+
+        <!-- Dialect SQL -->
+        <property name="dialect">org.hibernate.dialect.PostgreSQLDialect</property>
+
+        <!-- Gestion de session contextuelle -->
+        <property name="current_session_context_class">thread</property>
+
+        <!-- Configuration de l'affichage SQL -->
+        <property name="show_sql">true</property>
+        <property name="format_sql">true</property>
+
+        <!-- Mise à jour automatique de la base de données -->
+        <property name="hbm2ddl.auto">update</property>
+
+        <!-- Entités enregistrées -->
+        <mapping class="fr.wechat.core.modele.Utilisateur"/>
+        <mapping class="fr.wechat.core.modele.Message"/>
+    </session-factory>
+</hibernate-configuration>
